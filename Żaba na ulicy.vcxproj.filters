@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{da842e6c-061d-42cb-be5f-1ddec3f4ad9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{881c5867-25a9-44ad-bb5d-790bfa234994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game State Files">
+      <UniqueIdentifier>{6b986c35-e1b3-47b1-abf5-5b5dcdbf7f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game State Files\Logic">
+      <UniqueIdentifier>{79468695-34d2-4414-89a1-78ad1bb6e49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game State Files\Graphics">
+      <UniqueIdentifier>{33c5eedb-c52a-4aa7-ad97-27a9ffdcffa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game State Files\Entities Sprites">
+      <UniqueIdentifier>{b9700529-988b-4ded-959c-ba59521007bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game State Files\Entities Logic">
+      <UniqueIdentifier>{c756055c-ea32-46fb-8189-0864548fb343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game State Files">
+      <UniqueIdentifier>{350e0721-7115-44f0-8e18-dfdc07137d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game State Files\Logic">
+      <UniqueIdentifier>{3a76ddb1-57fb-4af6-80d5-a0e2749a8018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game State Files\Graphics">
+      <UniqueIdentifier>{f41b4284-cd8c-44cb-b2ee-ff1e0d4534a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game State Files\Entities Sprites">
+      <UniqueIdentifier>{13f5492b-83a1-4956-b4ab-1975ff8d9968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game State Files\Entities Logic">
+      <UniqueIdentifier>{7334bafb-d911-4afe-8ff9-4d780018bda4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player Records Files">
+      <UniqueIdentifier>{22fe96cd-3a0c-4ef7-aab2-58497eab950e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player Record Files">
+      <UniqueIdentifier>{dfa980ea-5c7b-46c8-b9da-11495e3e73a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\States\SourceFiles\GameState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\Graphics\SourceFiles\GameGraphics.cpp">
+      <Filter>Source Files\Game State Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\Logic\SourceFiles\GameLogic.cpp">
+      <Filter>Source Files\Game State Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\EntitiesLogic\SourceFiles\FrogObject.cpp">
+      <Filter>Source Files\Game State Files\Entities Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\EntitiesLogic\SourceFiles\Object.cpp">
+      <Filter>Source Files\Game State Files\Entities Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\EntitiesLogic\SourceFiles\CarObject.cpp">
+      <Filter>Source Files\Game State Files\Entities Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\EntitiesSprites\SourceFiles\CarObjectSprite.cpp">
+      <Filter>Source Files\Game State Files\Entities Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\EntitiesSprites\SourceFiles\FrogObjectSprite.cpp">
+      <Filter>Source Files\Game State Files\Entities Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\EntitiesSprites\SourceFiles\ObjectSprite.cpp">
+      <Filter>Source Files\Game State Files\Entities Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utilities\SourceFiles\ConfigVariables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\Logic\SourceFiles\PlaygroundLogic.cpp">
+      <Filter>Source Files\Game State Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utilities\SourceFiles\Point.cpp">
+      <Filter>Source Files\Game State Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\Graphics\SourceFiles\PlaygroundGraphics.cpp">
+      <Filter>Source Files\Game State Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\EntitiesSprites\SourceFiles\TrackSprite.cpp">
+      <Filter>Source Files\Game State Files\Entities Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\EntitiesSprites\SourceFiles\PlaygroundSprite.cpp">
+      <Filter>Source Files\Game State Files\Entities Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\Graphics\SourceFiles\ScoreText.cpp">
+      <Filter>Source Files\Game State Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\EntitiesSprites\SourceFiles\LivesSprite.cpp">
+      <Filter>Source Files\Game State Files\Entities Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\EntitiesSprites\SourceFiles\PauseScreenSprite.cpp">
+      <Filter>Source Files\Game State Files\Entities Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\Logic\SourceFiles\Track.cpp">
+      <Filter>Source Files\Game State Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateFiles\Graphics\SourceFiles\PauseScreenGraphics.cpp">
+      <Filter>Source Files\Game State Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\States\SourceFiles\GameOverState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\States\SourceFiles\MenuState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\States\SourceFiles\WallOfFameState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerRecords\SourceFiles\PlayerRecord.cpp">
+      <Filter>Source Files\Player Records Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerRecords\SourceFiles\PlayerRecordsManager.cpp">
+      <Filter>Source Files\Player Records Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\States\SourceFiles\StateMachine.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\States\HeaderFiles\GameState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\States\HeaderFiles\StateMachine.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\States\State.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\Graphics\HeaderFiles\GameGraphics.h">
+      <Filter>Header Files\Game State Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\Logic\HeaderFiles\GameLogic.h">
+      <Filter>Header Files\Game State Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\EntitiesLogic\HeaderFiles\FrogObject.h">
+      <Filter>Header Files\Game State Files\Entities Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\EntitiesLogic\HeaderFiles\Object.h">
+      <Filter>Header Files\Game State Files\Entities Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\EntitiesLogic\HeaderFiles\CarObject.h">
+      <Filter>Header Files\Game State Files\Entities Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\EntitiesSprites\HeaderFiles\ObjectSprite.h">
+      <Filter>Header Files\Game State Files\Entities Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\EntitiesSprites\HeaderFiles\FrogObjectSprite.h">
+      <Filter>Header Files\Game State Files\Entities Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\EntitiesSprites\HeaderFiles\CarObjectSprite.h">
+      <Filter>Header Files\Game State Files\Entities Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utilities\HeaderFiles\ConfigVariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\Logic\HeaderFiles\PlaygroundLogic.h">
+      <Filter>Header Files\Game State Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utilities\HeaderFiles\Point.h">
+      <Filter>Header Files\Game State Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utilities\Enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\Graphics\HeaderFiles\PlaygroundGraphics.h">
+      <Filter>Header Files\Game State Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\EntitiesSprites\HeaderFiles\TrackSprite.h">
+      <Filter>Header Files\Game State Files\Entities Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\EntitiesSprites\HeaderFiles\PlaygroundSprite.h">
+      <Filter>Header Files\Game State Files\Entities Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\Graphics\HeaderFiles\ScoreText.h">
+      <Filter>Header Files\Game State Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\EntitiesSprites\HeaderFiles\LivesSprite.h">
+      <Filter>Header Files\Game State Files\Entities Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\Logic\HeaderFiles\Track.h">
+      <Filter>Header Files\Game State Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\EntitiesSprites\HeaderFiles\PauseScreenSprite.h">
+      <Filter>Header Files\Game State Files\Entities Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateFiles\Graphics\HeaderFiles\PauseScreenGraphics.h">
+      <Filter>Header Files\Game State Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\States\HeaderFiles\GameOverState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\States\HeaderFiles\MenuState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\States\HeaderFiles\WallOfFameState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerRecords\HeaderFiles\PlayerRecord.h">
+      <Filter>Header Files\Player Record Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerRecords\HeaderFiles\PlayerRecordsManager.h">
+      <Filter>Header Files\Player Record Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Graphics\addPlayerScreen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\carFromBottom0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\carFromBottom1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\carFromBottom2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\carFromBottom3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\carFromBottom4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\carFromTop0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\carFromTop1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\carFromTop2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\carFromTop3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\carFromTop4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\frogBeforeAfterJump.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\frogDeath.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\frogJumpBackwards.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\frogJumpForwards.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\frogNormalStanding.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\gameOverScreen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\grassFullHD.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\grassHD.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\heart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\menuScreen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\pauseScreen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\road.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Graphics\wallOfFameScreen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Fonts\Apache License.txt" />
+    <Text Include="PlayerRecords\Records.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Fonts\OpenSans-Bold.ttf" />
+    <Font Include="Fonts\OpenSans-BoldItalic.ttf" />
+    <Font Include="Fonts\OpenSans-ExtraBold.ttf" />
+    <Font Include="Fonts\OpenSans-ExtraBoldItalic.ttf" />
+    <Font Include="Fonts\OpenSans-Italic.ttf" />
+    <Font Include="Fonts\OpenSans-Light.ttf" />
+    <Font Include="Fonts\OpenSans-LightItalic.ttf" />
+    <Font Include="Fonts\OpenSans-Regular.ttf" />
+    <Font Include="Fonts\OpenSans-Semibold.ttf" />
+    <Font Include="Fonts\OpenSans-SemiboldItalic.ttf" />
+    <Font Include="Fonts\PressStart2P-Regular.ttf" />
+  </ItemGroup>
+</Project>

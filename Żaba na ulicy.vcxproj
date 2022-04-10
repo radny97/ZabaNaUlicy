@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ddb1669a-fc9a-4f5f-841e-fcbb33d0d07d}</ProjectGuid>
+    <RootNamespace>Żabanaulicy</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\radny\Desktop\Zaawansowane C++\Żaba na ulicy\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\radny\Desktop\Zaawansowane C++\Żaba na ulicy\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;sfml-window.lib;sfml-graphics.lib;sfml-system.lib;sfml-main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Żaba na ulicy\Source;C:\Żaba na ulicy\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;openal32.lib;sfml-window-d.lib;sfml-graphics-d.lib;sfml-system-d.lib;sfml-main-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Żaba na ulicy\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\GameStateFiles\EntitiesLogic\SourceFiles\CarObject.cpp" />
+    <ClCompile Include="Source\GameStateFiles\EntitiesSprites\SourceFiles\CarObjectSprite.cpp" />
+    <ClCompile Include="Source\GameStateFiles\EntitiesLogic\SourceFiles\FrogObject.cpp" />
+    <ClCompile Include="Source\GameStateFiles\EntitiesSprites\SourceFiles\FrogObjectSprite.cpp" />
+    <ClCompile Include="Source\GameStateFiles\Graphics\SourceFiles\GameGraphics.cpp" />
+    <ClCompile Include="Source\GameStateFiles\Logic\SourceFiles\GameLogic.cpp" />
+    <ClCompile Include="Source\States\SourceFiles\GameOverState.cpp" />
+    <ClCompile Include="Source\GameStateFiles\EntitiesSprites\SourceFiles\LivesSprite.cpp" />
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\States\SourceFiles\GameState.cpp" />
+    <ClCompile Include="Source\States\SourceFiles\MenuState.cpp" />
+    <ClCompile Include="Source\GameStateFiles\EntitiesLogic\SourceFiles\Object.cpp" />
+    <ClCompile Include="Source\GameStateFiles\EntitiesSprites\SourceFiles\ObjectSprite.cpp" />
+    <ClCompile Include="Source\GameStateFiles\Graphics\SourceFiles\PauseScreenGraphics.cpp" />
+    <ClCompile Include="Source\GameStateFiles\EntitiesSprites\SourceFiles\PauseScreenSprite.cpp" />
+    <ClCompile Include="Source\GameStateFiles\Player.cpp" />
+    <ClCompile Include="Source\PlayerRecords\SourceFiles\PlayerRecord.cpp" />
+    <ClCompile Include="Source\GameStateFiles\Logic\SourceFiles\PlaygroundLogic.cpp" />
+    <ClCompile Include="Source\GameStateFiles\EntitiesSprites\SourceFiles\PlaygroundSprite.cpp" />
+    <ClCompile Include="Source\GameStateFiles\Graphics\SourceFiles\PlaygroundGraphics.cpp" />
+    <ClCompile Include="Source\Utilities\SourceFiles\Point.cpp" />
+    <ClCompile Include="Source\PlayerRecords\SourceFiles\PlayerRecordsManager.cpp" />
+    <ClCompile Include="Source\GameStateFiles\Graphics\SourceFiles\ScoreText.cpp" />
+    <ClCompile Include="Source\States\SourceFiles\StateMachine.cpp" />
+    <ClCompile Include="Source\GameStateFiles\Logic\SourceFiles\Track.cpp" />
+    <ClCompile Include="Source\GameStateFiles\EntitiesSprites\SourceFiles\TrackSprite.cpp" />
+    <ClCompile Include="Source\Utilities\SourceFiles\ConfigVariables.cpp" />
+    <ClCompile Include="Source\States\SourceFiles\WallOfFameState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\States\State.h" />
+    <ClInclude Include="Source\GameStateFiles\EntitiesLogic\HeaderFiles\CarObject.h" />
+    <ClInclude Include="Source\GameStateFiles\EntitiesSprites\HeaderFiles\CarObjectSprite.h" />
+    <ClInclude Include="Source\Utilities\Enums.h" />
+    <ClInclude Include="Source\GameStateFiles\EntitiesLogic\HeaderFiles\FrogObject.h" />
+    <ClInclude Include="Source\GameStateFiles\EntitiesSprites\HeaderFiles\FrogObjectSprite.h" />
+    <ClInclude Include="Source\GameStateFiles\Graphics\HeaderFiles\GameGraphics.h" />
+    <ClInclude Include="Source\GameStateFiles\Logic\HeaderFiles\GameLogic.h" />
+    <ClInclude Include="Source\States\HeaderFiles\GameOverState.h" />
+    <ClInclude Include="Source\States\HeaderFiles\GameState.h" />
+    <ClInclude Include="Source\GameStateFiles\EntitiesSprites\HeaderFiles\LivesSprite.h" />
+    <ClInclude Include="Source\States\HeaderFiles\MenuState.h" />
+    <ClInclude Include="Source\GameStateFiles\EntitiesLogic\HeaderFiles\Object.h" />
+    <ClInclude Include="Source\GameStateFiles\EntitiesSprites\HeaderFiles\ObjectSprite.h" />
+    <ClInclude Include="Source\GameStateFiles\Graphics\HeaderFiles\PauseScreenGraphics.h" />
+    <ClInclude Include="Source\GameStateFiles\EntitiesSprites\HeaderFiles\PauseScreenSprite.h" />
+    <ClInclude Include="Source\GameStateFiles\Player.h" />
+    <ClInclude Include="Source\PlayerRecords\HeaderFiles\PlayerRecord.h" />
+    <ClInclude Include="Source\GameStateFiles\Logic\HeaderFiles\PlaygroundLogic.h" />
+    <ClInclude Include="Source\GameStateFiles\EntitiesSprites\HeaderFiles\PlaygroundSprite.h" />
+    <ClInclude Include="Source\GameStateFiles\Graphics\HeaderFiles\PlaygroundGraphics.h" />
+    <ClInclude Include="Source\Utilities\HeaderFiles\Point.h" />
+    <ClInclude Include="Source\PlayerRecords\HeaderFiles\PlayerRecordsManager.h" />
+    <ClInclude Include="Source\GameStateFiles\Graphics\HeaderFiles\ScoreText.h" />
+    <ClInclude Include="Source\States\HeaderFiles\StateMachine.h" />
+    <ClInclude Include="Source\GameStateFiles\Logic\HeaderFiles\Track.h" />
+    <ClInclude Include="Source\GameStateFiles\EntitiesSprites\HeaderFiles\TrackSprite.h" />
+    <ClInclude Include="Source\Utilities\HeaderFiles\ConfigVariables.h" />
+    <ClInclude Include="Source\States\HeaderFiles\WallOfFameState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Graphics\addPlayerScreen.png" />
+    <Image Include="Graphics\carFromBottom0.png" />
+    <Image Include="Graphics\carFromBottom1.png" />
+    <Image Include="Graphics\carFromBottom2.png" />
+    <Image Include="Graphics\carFromBottom3.png" />
+    <Image Include="Graphics\carFromBottom4.png" />
+    <Image Include="Graphics\carFromTop0.png" />
+    <Image Include="Graphics\carFromTop1.png" />
+    <Image Include="Graphics\carFromTop2.png" />
+    <Image Include="Graphics\carFromTop3.png" />
+    <Image Include="Graphics\carFromTop4.png" />
+    <Image Include="Graphics\frogBeforeAfterJump.png" />
+    <Image Include="Graphics\frogDeath.png" />
+    <Image Include="Graphics\frogJumpBackwards.png" />
+    <Image Include="Graphics\frogJumpForwards.png" />
+    <Image Include="Graphics\frogNormalStanding.png" />
+    <Image Include="Graphics\gameOverScreen.png" />
+    <Image Include="Graphics\grassFullHD.png" />
+    <Image Include="Graphics\grassHD.png" />
+    <Image Include="Graphics\heart.png" />
+    <Image Include="Graphics\menuScreen.png" />
+    <Image Include="Graphics\pauseScreen.png" />
+    <Image Include="Graphics\road.png" />
+    <Image Include="Graphics\wallOfFameScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Fonts\Apache License.txt" />
+    <Text Include="PlayerRecords\Records.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Fonts\OpenSans-Bold.ttf" />
+    <Font Include="Fonts\OpenSans-BoldItalic.ttf" />
+    <Font Include="Fonts\OpenSans-ExtraBold.ttf" />
+    <Font Include="Fonts\OpenSans-ExtraBoldItalic.ttf" />
+    <Font Include="Fonts\OpenSans-Italic.ttf" />
+    <Font Include="Fonts\OpenSans-Light.ttf" />
+    <Font Include="Fonts\OpenSans-LightItalic.ttf" />
+    <Font Include="Fonts\OpenSans-Regular.ttf" />
+    <Font Include="Fonts\OpenSans-Semibold.ttf" />
+    <Font Include="Fonts\OpenSans-SemiboldItalic.ttf" />
+    <Font Include="Fonts\PressStart2P-Regular.ttf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
